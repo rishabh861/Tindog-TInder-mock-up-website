@@ -1,0 +1,188 @@
+body{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.heading{
+    line-height: 1.2;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+h1{
+    font-size:3rem;
+}
+
+
+#title{
+    background-color:#ff4c68;
+    color: #fff;
+}
+
+#title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 15%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+#features{
+    text-decoration: none;
+}
+
+
+.row{
+    margin-top: 60px; 
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* download button */
+.download-btn{
+    margin: 5% 3% 5% 0;
+    font-weight: 200;
+}
+
+
+/* features  */
+
+#features{
+    width: 80%;
+    margin: 10% auto;
+    padding: 2% 3%;
+}
+.feature-heading{
+    margin-top: 3%;
+    font-weight: 900;
+    font-size:1.5rem ;
+}
+
+.feature-text{
+    color: #8f8f8f;
+    font-size: 0.9rem;
+}
+.feature-icon{
+    color: #ef8172
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials  */
+
+/* before writing css, thoroughly go through the html content you are writing CSS for */
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-weight: 800;
+    letter-spacing: 1.;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 2%;
+}
+
+/* press */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom: 4%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 1.5% auto;
+    padding: 0 1.2%;
+}
+
+/* pricing */
+
+#pricing-content{
+    margin-top: 5%;
+}
+#pricing-content h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#pricing-content p{
+    font-size: 1.2rem;
+}
+
+
+#pricing-menu{
+    width: 70%;
+    margin: 5% auto;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color:#fff;
+
+}
+
+#cta-heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    
+}
+
+#cta button{
+    font-size: 1.5rem;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 5%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* media queries */
+
+@media (max-width: 1000px){
+    #title-image{
+        width: 60%;
+        margin: 3% auto;
+        transform: rotate(0)
+    }
+
+    #title{
+        text-align: center;
+    }
+}
